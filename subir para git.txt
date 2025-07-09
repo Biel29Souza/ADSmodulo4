@@ -1,0 +1,35 @@
+Passo a passo para colocar no github o projeto;
+
+entrar no projeto
+cd.. 
+cd vendas
+dir
+
+git remote add origin " htts://github.com/adssenacgit/torrevbackend-dashboards.git" colocar o link do repositorio do git
+
+git status
+
+git init 
+
+git status
+
+git add *
+
+git commit -m "Commit inicial"    
+
+git branch -M main
+
+git remote add origin htts://github.com/adssenacgit/torrevbackend-dashboards.git
+
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+*git bash 
