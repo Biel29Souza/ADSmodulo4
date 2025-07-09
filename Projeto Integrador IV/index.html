@@ -1,0 +1,59 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tela de Login Torre Verde</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+</head>
+<body class="bg-[#60684f] flex items-center justify-center min-h-screen px-4">
+  <div class="bg-[#b1bb87] rounded-3xl w-full max-w-md p-8 shadow-lg">
+    <div class="flex justify-center mb-8">
+      <div class="rounded-full bg-[#60684f] w-36 h-36 flex items-center justify-center">
+        <img
+          src="https://storage.googleapis.com/a1aa/image/d2ee9801-4c0d-4e34-aed0-6fb0d4476a99.jpg"
+          alt="Logo circular com folha estilizada e texto TORRE VERDE no centro"
+          class="w-28 h-28"
+          width="112"
+          height="112"
+        />
+      </div>
+    </div>
+    <form class="space-y-6">
+      <div>
+        <label for="email" class="block text-[#60684f] font-semibold text-lg mb-2"
+          >Email</label
+        >
+        <input
+          id="email"
+          type="email"
+          placeholder="Digite seu email"
+          class="w-full rounded-md border border-[#60684f] px-4 py-3 text-[#60684f] text-base placeholder-[#8a9470] focus:outline-none focus:ring-2 focus:ring-[#60684f]"
+          required
+        />
+      </div>
+      <div>
+        <label for="password" class="block text-[#60684f] font-semibold text-lg mb-2"
+          >Senha</label
+        >
+        <input
+          id="password"
+          type="password"
+          placeholder="Digite sua senha"
+          class="w-full rounded-md border border-[#60684f] px-4 py-3 text-[#60684f] text-base placeholder-[#8a9470] focus:outline-none focus:ring-2 focus:ring-[#60684f]"
+          required
+        />
+      </div>
+      <button
+        type="submit"
+        class="w-full bg-[#60684f] text-[#b1bb87] font-bold py-3 rounded-md text-lg hover:bg-[#4f5a3f] transition-colors"
+      >
+        Entrar
+      </button>
+    </form>
+  </div>
+</body>
+</html>
