@@ -1,0 +1,11 @@
+A ferramenta swagger permite a visualização gráfica dos endpoints da API web.
+ 
+Para configurar o swagger basta adicionar a seguinte dependencia no arquivo pom.xml do projeto springboot
+ 
+<dependency>
+   <groupId>org.springdoc</groupId>
+   <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+   <version>2.6.0</version>
+</dependency>
+ 
+Após a instalação e para acessa à página do swagger do projeto é necessário digitar: http://localhost:8080/swagger-ui/index.html

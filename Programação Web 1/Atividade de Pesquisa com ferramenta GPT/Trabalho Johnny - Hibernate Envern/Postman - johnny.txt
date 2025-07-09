@@ -1,0 +1,71 @@
+http://localhost:8080/h2-console
+
+
+SELECT * FROM cliente_aud;
+SELECT * FROM revisao_personalizada;
+
+
+
+
+
+http://localhost:8080/clientes
+POST
+{
+  "nome": "Gabriel",
+  "email": "biel@teste.com"
+}
+
+{
+  "nome": "Anderson",
+  "email": "anderson@teste.com"
+}
+
+{
+  "nome": "Arthur",
+  "email": "arthur@teste.com"
+}
+
+{
+  "nome": "Thamires",
+  "email": "mires@teste.com"
+}
+
+{
+  "nome": "Johnny",
+  "email": "johnny@teste.com"
+}
+
+{
+  "nome": "Felipe",
+  "email": "felipe@teste.com"
+}
+
+{
+  "nome": "Maria",
+  "email": "maria@teste.com"
+}
+
+{
+  "nome": "Andre",
+  "email": "andre@teste.com"
+}
+
+
+
+
+http://localhost:8080/clientes/   id' 1 - 8'
+PUT
+
+{
+  "nome": "Gabriel Souza",
+  "email": "biel@teste.com"
+}
+
+{
+  "nome": "Andre",
+  "email": "andreRS@teste.com"
+}
+
+
+
+ahc-qtoq-szo

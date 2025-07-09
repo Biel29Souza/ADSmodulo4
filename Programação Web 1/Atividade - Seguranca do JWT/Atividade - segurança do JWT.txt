@@ -1,0 +1,12 @@
+Você essencialmente transfere a sessão autenticada para esse novo ambiente. Se esse token for válido e não estiver vinculado a nenhum dado específico da máquina original, a nova máquina poderá usar o token para acessar os recursos autenticados como se fosse o usuário original. Isso é o que chamamos de sequestro de sessão.
+
+Como Proteger;
+Associação do token a características do dispositivo: vincular o token ao user
+
+Expiração curta e renovação com refresh tokens: use access tokens com curta duração e, para renovar, exija um refresh token que possa ser mais seguro e controlado.
+
+Uso de cookies HTTP-only e Secure: ao invés de armazenar o token no sessionStorage ou localStorage
+
+Logout remoto e blacklist de tokens: implemente uma lista de tokens inválidos
+
+Verificação contínua do contexto da sessão: a cada requisição, valide se o token está sendo usado no mesmo ambiente em que foi emitido.

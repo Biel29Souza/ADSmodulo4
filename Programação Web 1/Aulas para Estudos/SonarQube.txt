@@ -1,0 +1,11 @@
+Token do dashboard
+
+
+Analyze "dashboard": 
+
+sqp_ec31409d9b89067114ffe890eba1f8f0e2416d8b
+
+
+
+
+mvn clean verify sonar:sonar -Dsonar.projectKey=dashboard -Dsonar.projectName='dashboard' -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_ec31409d9b89067114ffe890eba1f8f0e2416d8b
